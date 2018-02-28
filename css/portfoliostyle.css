@@ -1,0 +1,142 @@
+body {
+	background-color: #f4f4f4;
+	margin: 0;
+}
+h1{
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+label {
+		margin: 0 0 12px; 
+}
+
+input[type=text]{
+	width: 300px;
+	padding:5px;
+	margin-top: 10px;
+}
+
+input[type=submit]{
+	margin-top:10px;
+}
+
+::placeholder{
+	color: grey;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: strong;
+}
+.container{
+	width: 100%;
+	/*margin is the spacing around an element*/
+	margin: auto;	
+}
+
+.section{
+	height: 100%;}
+
+/*Welcome ID Styles*/
+#Welcome{
+	background-color: #FFB730;
+	padding: 20px;
+}
+
+#Welcome h1{
+	font-size: 20px;
+	letter-spacing: 0.5em;
+	text-align:center;
+}
+
+#Welcome img{
+	float: right;
+}
+
+/*About ID Styles*/
+#About{
+	background-color: #fffff0;
+	padding: 20px;
+	height: 70%;
+}
+
+#About h1{
+	font-size: 20px;
+	letter-spacing: 0.5em;
+	text-align:center;
+}
+
+#About table th{
+	padding: 20px;
+}
+
+#About table th p{
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:.95em;
+	text-align: justify;
+	font-weight: normal;
+	line-height: 2 px;
+	
+}
+
+/*Location ID Styles*/
+#Location{
+	background-color: #0085d8;
+	padding: 20px;
+	height: 70%;
+}
+
+#Location h1{
+	font-size: 20px;
+	letter-spacing: 0.5em;
+	text-align:center;
+}
+
+/*Project ID Styles*/
+#Projects{
+	background-color: #369636;
+	padding: 20px;
+	height: 70%;
+}
+
+#Projects h1{
+	font-size: 20px;
+	letter-spacing: 0.5em;
+	text-align:center;
+}
+
+/*Resume ID Styles*/
+#Resume{
+	background-color: #fffff0;
+	padding: 20px;
+	height: 70%;
+}
+
+#Resume h1{
+	font-size: 20px;
+	letter-spacing: 0.5em;
+	text-align:center;
+}
+
+/*Contact ID Styles*/
+#Contact{
+	background-color: #0e0f0e;
+	padding: 20px;
+	height: 50%;
+}
+
+#Contact h1{
+	font-size: 20px;
+	letter-spacing: 0.5em;
+	text-align:center;
+	color: #ffffff;
+}
+
+#emailme{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#email{
+	margin-bottom: 10px;
+}
+
+
